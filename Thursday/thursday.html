@@ -1,52 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keyword" content="">
-        <meta name="description" content="">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="Thursday.png">
-        <title>3rd november 2025t</title>
-    </head>
-    <body>
-         <!--Navigation Bar  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Thursday.png" />
+    <title>3rd november 2025t</title>
+  </head>
+  <body>
+        <!--Navigation Bar  -->
         <nav>
-            <ul>
-            <li><img  src="Thursday.png" alt="welcome to tuesday" width="100%" height="alto"></li>
-            <li><h6><a href="../monday/monday.html" target="_parent">Monday</a></h6></li>
-            <li><h6><a href="../Tuesday/tuesday.html" target="_parent">Tuesday</a></h6></li>
-            <li><h6><a href="../wednesday/wednesday.html" target="_parent">Wednesday</a></h6></li>
-            <li><h6><a href="../Thursday/thursday.html" target="_parent">Thursday</a></h6></li>
-            <li><h6><a href="" target="_parent">Friday</a></h6></li>
-            <li><img  src="Thursday.png" alt="welcome to tuesday" width="100%" height="alto"></li>
-            </ul>
+        <ul>
+            <li>
+            <img
+                src="Thursday.png"
+                alt="welcome to tuesday"
+                width="100%"
+                height="alto"
+            />
+            </li>
+            <li>
+            <h6><a href="../monday/monday.html" target="_parent">Monday</a></h6>
+            </li>
+            <li>
+            <h6>
+                <a href="../Tuesday/tuesday.html" target="_parent">Tuesday</a>
+            </h6>
+            </li>
+            <li>
+            <h6>
+                <a href="../wednesday/wednesday.html" target="_parent">Wednesday</a>
+            </h6>
+            </li>
+            <li>
+            <h6>
+                <a href="../Thursday/thursday.html" target="_parent">Thursday</a>
+            </h6>
+            </li>
+            <li>
+            <h6><a href="" target="_parent">Friday</a></h6>
+            </li>
+            <li>
+            <img
+                src="Thursday.png"
+                alt="welcome to tuesday"
+                width="100%"
+                height="alto"
+            />
+            </li>
+        </ul>
         </nav>
         <h1>Bootstrap</h1>
-        <h2>containers</h2> 
-        <p>In this we get to see that bootstrap has a set of their own container that can be used as a media querie of some sort</p>
-        <p>That is the extra small, the small, medium, large, extra large and extra extra large</p>
+        <h2>containers</h2>
+        <p>
+        In this we get to see that bootstrap has a set of their own container that
+        can be used as a media querie of some sort
+        </p>
+        <p>
+        That is the extra small, the small, medium, large, extra large and extra
+        extra large
+        </p>
         <p>see the different sizes of the containers in the iframe below</p>
-        <iframe src="bootstrap containers.html" frameborder="0" width="100%" height="500px" ></iframe>
+        <iframe
+        src="bootstrap containers.html"
+        frameborder="0"
+        width="100%"
+        height="500px"
+        ></iframe>
 
         <!-- layout areeangement -->
         <h2>layout arrangement</h2>
         <h3>flexbox,flexwrap and breakpoints.</h3>
         <h4>columns and rows.</h4>
         <p>We will look at the different grid sizses strucured by bootstrap.</p>
-        <p>Look at the frame work below and see what you observe of the basic grid</p>
-        <iframe src="bootstrap basic grid.html" frameborder="0" width="100%" height="500px"></iframe>
+        <p>
+        Look at the frame work below and see what you observe of the basic grid
+        </p>
+        <iframe
+        src="bootstrap basic grid.html"
+        frameborder="0"
+        width="100%"
+        height="500px"
+        ></iframe>
 
         <!-- column widths -->
-         <h4>lets see the column widths here</h4>
-         <p>you get to see that each column is manipulated based on the screen width</p>
-         <iframe src="bootstrap column widths.html" frameborder="0" width="100%" height="500px"> </iframe>
-            <p>the column must be a maximum of six</p>
+        <h4>lets see the column widths here</h4>
+        <p>
+        you get to see that each column is manipulated based on the screen width
+        </p>
+        <iframe
+        src="bootstrap column widths.html"
+        frameborder="0"
+        width="100%"
+        height="500px"
+        >
+        </iframe>
+        <p>the column must be a maximum of six</p>
 
-            <h2>responsive columns</h2>
-            <p>the responsive columns will move with the adjustment of the screen</p>
-            <h5>example is the one below. adjust your screen to see the effect</h5>
-            <iframe src="bootstrap responsive column.html" frameborder="0" width="100%" height="500px"></iframe>
+        <h2>responsive columns</h2>
+        <p>the responsive columns will move with the adjustment of the screen</p>
+        <h5>example is the one below. adjust your screen to see the effect</h5>
+        <iframe
+        src="bootstrap responsive column.html"
+        frameborder="0"
+        width="100%"
+        height="500px"
+        ></iframe>
 
-    </body>
-    </html>
+        <br />
+        <h2>Arrangements of elements</h2>
+        <p>We are going to use the justify-content style.</p>
+        <p>we can specify the screen sie we want to justify to</p>
+        <p>
+        finaly we can decide if the column will be at the end center or the start.
+        </p>
+        <h5>Example in the frame. adjust the screen to see.</h5>
+        <p>you can add a gap by putting g-(size)</p>
+        <p>class used on the first</p>
+        <pre>
+    row justify-content-md-center justify-content-sm-start justify-content-xl-end</pre
+        >
+        <p>class used on the second</p>
+        <pre>row row-cols-sm-4 row-cols-md-4 row-cols-xl-3 row-cols-lg-8</pre>
+        <iframe
+        src="bootstrap column arrangement.html"
+        frameborder="0"
+        width="100%"
+        height="500px"
+        ></iframe>
+
+        <!-- display text -->
+        <h2>display text allows one to play around with headings as seen</h2>
+        <p>can be used for viewing purposes</p>
+        <p>style leads make the text lighter and more enticing.</p>
+        <p>aligning text write text with place you want it to be</p>
+        <h5>example</h5>
+        <p>text-center</p>
+
+        <h2>coloring the text</h2>
+        <p>bootstrap has its sets of colors</p>
+        <h5>example</h5>
+        <p>text-danger, text-info etc</p>
+        <p>
+        incase you want to incorporate your style you can download bootstrap and
+        under css chnge it
+        </p>
+        <p>This colors also apply to the background colors</p>
+
+        <p>in styling you can use the row or the <mark>flex</mark></p>
+        <h2>components</h2>
+        <ol>
+        you can find a
+        <li>navigation</li>
+        <li>card</li>
+        <li>carosele</li>
+        <li>navbar</li>
+        <li>tool tip</li>
+        </ol>
+
+        <h1>to build your own code press the link below</h1>
+        <mark><a href="https://github.com/codecrafters-io/build-your-own-x?tab=readme-ov-file#build-your-own-git" target="_parent"></a></mark>
+
+        <p>Download and watch the video by pressing the button</p>
+       <a class="video" href="https://www.mediafire.com/file/9c6bxu2tmla4ab0/thursday_1.mp4/file" target="_parent">VIDEO</a>
+  </body>
+</html>
