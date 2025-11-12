@@ -1,0 +1,23 @@
+{
+  "name": "3rd-to-8th-nov",
+  "version": "1.0.0",
+  "description": "This folder contains lesson notes and examples (HTML + CSS) covering Git/GitHub basics and Bootstrap usage from 3rd–8th November.",
+  "homepage": "https://github.com/Issa-Josiah/3rd-to-8th-November#readme",
+  "bugs": {
+    "url": "https://github.com/Issa-Josiah/3rd-to-8th-November/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Issa-Josiah/3rd-to-8th-November.git"
+  },
+  "license": "ISC",
+  "author": "Issa Josiah",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
